@@ -1,0 +1,44 @@
+@keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+}
+
+
+a{
+    text-decoration: none;
+}
+
+header.header{
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    h1.tittle{
+        font-family: Helvetica !important;
+        animation: slide-in 1s ease-out;    
+        color: white;
+        margin: 0 auto;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+
+div.container{
+    display: flex;
+    justify-content: center;
+    font-family: Helvetica;
+    background-color: black;
+    ul{
+        list-style: none;            
+        a{
+            color: white;
+        }
+    }
+    
+}
