@@ -1,3 +1,6 @@
+import "core-js/stable";
+import "regenerator-runtime/runtime";
+
 import { insertHTML as insertNR } from "./newReleases.js";
 import { insertHTML as insertP } from "./popular.js";
 import { insertHTML as insertC1 } from "./story/chapter1.js";
